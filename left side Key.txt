@@ -1,0 +1,4 @@
+left side Key
+:
+right side value
+both are called key -value pair

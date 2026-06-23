@@ -1,0 +1,568 @@
+You are a senior full-stack software engineer, authentication specialist, security engineer, QA engineer, and UX/UI expert.
+
+Perform a complete audit, diagnosis, repair, optimization, and final production-ready implementation of my entire authentication and account management system.
+
+## CRITICAL ISSUE TO FIX
+
+Users are entering the correct login credentials, but the application incorrectly reports that the credentials are invalid and prevents successful login.
+
+Investigate and fix ALL possible causes, including but not limited to:
+
+* Authentication logic errors
+* Password hashing issues
+* Database query issues
+* Session problems
+* Token generation/validation errors
+* Cookie configuration issues
+* Incorrect environment variables
+* Backend API failures
+* Frontend form submission bugs
+* Rate limiting issues
+* Database connection issues
+* Authentication middleware errors
+* User lookup problems
+* Account status validation issues
+* Email verification conflicts
+* OAuth conflicts
+* Cross-origin (CORS) issues
+* Client/server synchronization issues
+* Form validation bugs
+* State management bugs
+
+## EMAIL VERIFICATION SYSTEM
+
+Completely implement and verify a real working email verification system.
+
+Requirements:
+
+1. When a user signs up:
+
+   * Generate a secure verification token.
+   * Save token securely in database.
+   * Send a real verification email.
+   * Include professional verification email template.
+   * Include verification link.
+   * Include token expiration.
+   * Prevent login until email is verified if verification is required.
+
+2. Verification email must:
+
+   * Actually send successfully.
+   * Work on production deployment.
+   * Work on development deployment.
+   * Handle failures gracefully.
+   * Show success and error messages.
+
+3. Verify:
+
+   * SMTP configuration.
+   * Email service configuration.
+   * Environment variables.
+   * Domain configuration.
+   * DNS records if required.
+   * Email delivery logs.
+
+4. Add:
+
+   * Resend verification email button.
+   * Verification success page.
+   * Verification failure page.
+   * Expired token handling.
+   * Invalid token handling.
+
+## SOCIAL LOGIN SYSTEM
+
+Implement and fully fix:
+
+* Google Sign In
+* Google Sign Up
+* Microsoft Sign In
+* Microsoft Sign Up
+* GitHub Sign In
+* GitHub Sign Up
+* Apple Sign In
+* Apple Sign Up
+
+Requirements:
+
+### OAuth Popup Behavior
+
+The sign-in process must use a professional popup window instead of redirecting the entire application.
+
+The popup should display:
+
+LEFT SIDE:
+
+* Provider branding
+* Provider logo
+* App name
+* Secure sign-in messaging
+* Brief explanation
+
+RIGHT SIDE:
+
+* User account selection
+* Existing account list
+* Option to use another account
+* Continue button
+
+The flow should resemble modern Google/Microsoft account chooser experiences.
+
+### OAuth Requirements
+
+Verify and fix:
+
+* OAuth client IDs
+* OAuth secrets
+* Redirect URIs
+* Callback routes
+* OAuth scopes
+* Token exchanges
+* Refresh tokens
+* User profile retrieval
+* New account creation
+* Existing account linking
+* Session creation
+* Logout handling
+
+## ACCOUNT CREATION SYSTEM
+
+Audit and fix:
+
+* Sign up flow
+* Login flow
+* Password reset flow
+* Forgot password flow
+* Email verification flow
+* Social login flow
+* Account linking flow
+
+Verify every user can:
+
+* Create account
+* Verify email
+* Log in
+* Stay logged in
+* Log out
+* Reset password
+* Change password
+* Update profile
+
+without errors.
+
+## DATABASE AUDIT
+
+Perform a complete database inspection.
+
+Check:
+
+* User table structure
+* Indexes
+* Constraints
+* Foreign keys
+* Missing columns
+* Duplicate records
+* Null value issues
+* Authentication-related fields
+* OAuth-related fields
+* Verification-related fields
+
+Repair any issues found.
+
+## SECURITY HARDENING
+
+Implement best practices:
+
+* Password hashing using modern standards
+* Secure sessions
+* CSRF protection
+* XSS protection
+* Input validation
+* SQL injection protection
+* Rate limiting
+* Brute-force protection
+* Secure cookies
+* HTTPS compatibility
+* Secure token storage
+
+## FRONTEND IMPROVEMENTS
+
+Inspect every authentication screen.
+
+Improve:
+
+* Login page
+* Registration page
+* Forgot password page
+* Verification page
+* Profile page
+* OAuth popup UI
+
+Ensure:
+
+* Responsive design
+* Mobile support
+* Tablet support
+* Desktop support
+* Accessibility compliance
+* Loading states
+* Error states
+* Success states
+
+## ERROR HANDLING
+
+Find and eliminate:
+
+* Console errors
+* Runtime errors
+* Build errors
+* Type errors
+* API errors
+* Validation errors
+* Database errors
+* Authentication errors
+
+Add centralized error handling.
+
+Every failure should provide:
+
+* User-friendly message
+* Logged diagnostic information
+* Recovery instructions
+
+## TESTING
+
+Create and execute tests for:
+
+* Login
+* Registration
+* Email verification
+* Password reset
+* Google OAuth
+* Microsoft OAuth
+* GitHub OAuth
+* Apple OAuth
+* Session persistence
+* Logout
+
+Verify every scenario passes successfully.
+
+## PERFORMANCE
+
+Optimize:
+
+* Authentication speed
+* Database queries
+* API responses
+* OAuth callbacks
+* Email delivery flow
+
+## FINAL REQUIREMENT
+
+Do not stop after identifying issues.
+
+Actually implement all fixes, update all necessary code, create any missing files, modify database schemas if required, repair broken integrations, and complete all unfinished features.
+
+Continue working until:
+
+* Authentication works correctly.
+* Login works correctly.
+* Registration works correctly.
+* Email verification works correctly.
+* Google OAuth works correctly.
+* Microsoft OAuth works correctly.
+* GitHub OAuth works correctly.
+* Apple OAuth works correctly.
+* Password reset works correctly.
+* No console errors remain.
+* No build errors remain.
+* No runtime errors remain.
+* No authentication errors remain.
+
+Finally provide:
+
+1. Root cause analysis of every issue found.
+2. Complete list of fixes applied.
+3. Files modified.
+4. Security improvements made.
+5. Testing results.
+6. Remaining recommendations.
+7. Production readiness checklist.
+
+Goal: Deliver a fully functional, production-ready authentication system with a polished user experience, robust security, complete email verification, and flawless OAuth login/signup support with zero known authentication defects.
+
+CRITICAL INSTRUCTION:
+
+Do not stop at identifying issues. Continue auditing, debugging, repairing, optimizing, testing, validating, and refining the application until every feature functions correctly under all tested conditions.
+
+You are acting as a Senior Full-Stack Engineer, Principal Software Architect, Authentication Specialist, Security Engineer, DevOps Engineer, QA Automation Engineer, UI/UX Expert, and Production Readiness Auditor.
+
+YOUR MISSION:
+
+Transform this application into a production-ready platform with authentication, email verification, and OAuth systems that are fully functional, professionally implemented, thoroughly tested, highly secure, and free of all known defects.
+
+NON-NEGOTIABLE REQUIREMENTS:
+
+* Fix every bug discovered.
+* Search for hidden bugs even after the obvious issues are fixed.
+* Verify every user flow manually and programmatically.
+* Implement any missing functionality.
+* Repair any broken integrations.
+* Eliminate all known console errors.
+* Eliminate all known runtime errors.
+* Eliminate all known build errors.
+* Eliminate all known authentication errors.
+* Eliminate all known validation errors.
+* Eliminate all known database errors.
+* Eliminate all known API errors.
+* Eliminate all known UI issues.
+* Eliminate all known security vulnerabilities.
+* Eliminate all known OAuth issues.
+* Eliminate all known email delivery issues.
+
+AUTHENTICATION INVESTIGATION:
+
+Users enter correct credentials but authentication incorrectly fails.
+
+Perform a complete root-cause investigation covering:
+
+* Frontend login logic
+* Backend authentication logic
+* Database lookups
+* Password hashing
+* Password comparison
+* Session handling
+* JWT validation
+* Cookies
+* Middleware
+* OAuth interactions
+* Environment variables
+* API communication
+* State management
+* Validation layers
+* Error handling
+
+Do not stop until successful login works consistently.
+
+EMAIL VERIFICATION SYSTEM:
+
+Implement a complete production-grade email verification workflow.
+
+Requirements:
+
+* Verification emails must send successfully.
+* Verification links must function correctly.
+* Verification tokens must be securely generated.
+* Verification tokens must expire properly.
+* Resend verification must work.
+* Invalid token handling must work.
+* Expired token handling must work.
+* Success page must work.
+* Failure page must work.
+* Email templates must be professional.
+* Delivery failures must be logged.
+* User feedback must be clear.
+
+Verify:
+
+* SMTP setup
+* Email provider setup
+* Domain configuration
+* Environment variables
+* Delivery status
+* Logging system
+
+SOCIAL AUTHENTICATION:
+
+Implement and fully validate:
+
+* Google Sign In / Sign Up
+* Microsoft Sign In / Sign Up
+* GitHub Sign In / Sign Up
+* Apple Sign In / Sign Up
+
+OAUTH POPUP REQUIREMENTS:
+
+Use a professional popup authentication flow.
+
+LEFT SIDE:
+
+* Provider logo
+* Provider branding
+* Application branding
+* Security messaging
+
+RIGHT SIDE:
+
+* Available accounts
+* Account chooser
+* Use another account option
+* Continue option
+
+The experience should resemble modern enterprise-grade OAuth account selection interfaces.
+
+Verify:
+
+* Client IDs
+* Client secrets
+* Redirect URIs
+* Callback handlers
+* Token exchanges
+* User profile retrieval
+* Session creation
+* Account linking
+* Logout functionality
+
+DATABASE AUDIT:
+
+Inspect and repair:
+
+* User tables
+* OAuth tables
+* Verification tables
+* Password reset tables
+* Constraints
+* Indexes
+* Relationships
+* Missing columns
+* Data integrity issues
+* Duplicate records
+
+SECURITY REQUIREMENTS:
+
+Implement and validate:
+
+* Secure password hashing
+* Secure session management
+* CSRF protection
+* XSS protection
+* SQL injection protection
+* Input sanitization
+* Rate limiting
+* Brute-force protection
+* Secure cookies
+* HTTPS compatibility
+* Secure token storage
+
+FRONTEND REQUIREMENTS:
+
+Audit and perfect:
+
+* Login page
+* Registration page
+* Forgot password page
+* Reset password page
+* Email verification page
+* Profile page
+* OAuth popup experience
+
+Ensure:
+
+* Responsive design
+* Mobile compatibility
+* Tablet compatibility
+* Desktop compatibility
+* Accessibility compliance
+* Loading states
+* Error states
+* Success states
+
+QUALITY ASSURANCE:
+
+Create and execute comprehensive testing for:
+
+* Registration
+* Login
+* Logout
+* Email verification
+* Password reset
+* Session persistence
+* Google OAuth
+* Microsoft OAuth
+* GitHub OAuth
+* Apple OAuth
+
+Perform:
+
+* Unit testing
+* Integration testing
+* End-to-end testing
+* Edge-case testing
+* Failure testing
+* Regression testing
+
+VALIDATION REQUIREMENT:
+
+Do not mark any task complete until it has been tested and verified.
+
+Continue iterating until all automated tests pass and all major user flows are validated successfully.
+
+FINAL DELIVERABLES:
+
+Provide:
+
+1. Root cause analysis.
+2. Every issue discovered.
+3. Every fix applied.
+4. Files modified.
+5. Database changes.
+6. Security improvements.
+7. Testing results.
+8. Production readiness report.
+9. Remaining risks, if any.
+10. Recommendations for future maintenance.
+
+COMPLETION STANDARD:
+
+The application should operate as a polished production-ready product with all discovered issues resolved, all major user flows verified, authentication functioning correctly, email verification functioning correctly, OAuth providers functioning correctly, security controls implemented, and all automated tests passing successfully.
+
+CRITICAL DESIGN PRESERVATION REQUIREMENT
+
+The application's current visual design, branding, layout, styling, animations, color palette, typography, spacing, navigation structure, user interface, and overall user experience must remain exactly the same unless a change is absolutely required to fix a bug or complete a missing feature.
+
+DO NOT:
+
+* Redesign the application.
+* Replace the current theme.
+* Change colors.
+* Change fonts.
+* Change branding.
+* Change page layouts.
+* Change component positioning.
+* Change navigation structure.
+* Remove existing animations.
+* Replace existing UI elements unnecessarily.
+* Modify the overall look and feel.
+* Alter the user experience that users currently see.
+
+INSTEAD:
+
+* Preserve the existing design.
+* Preserve the existing styling.
+* Preserve the existing branding.
+* Preserve the existing user interface.
+* Preserve the existing user experience.
+* Preserve responsiveness.
+* Preserve all visual effects and animations.
+
+ONLY make visual changes when they are strictly required to:
+
+* Fix broken functionality.
+* Add missing authentication features.
+* Add email verification functionality.
+* Add OAuth provider functionality.
+* Improve accessibility compliance.
+* Resolve UI bugs.
+
+Any required visual changes must seamlessly match the existing design language so that users cannot tell that new functionality was added later.
+
+The final application should look virtually identical to the current version while functioning significantly better and having all authentication, verification, OAuth, security, database, backend, frontend, and testing issues resolved.
+
+Priority Order:
+
+1. Preserve existing design and appearance.
+2. Fix all functionality issues.
+3. Complete missing features.
+4. Improve security and reliability.
+5. Validate and test all systems.
+6. Deliver a production-ready application that looks the same but works substantially better.
